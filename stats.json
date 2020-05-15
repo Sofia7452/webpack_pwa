@@ -1,0 +1,101 @@
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://localhost:8009/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from /
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from ./dist
+[34mℹ[39m [90m｢wdm｣[39m: wait until bundle finished: /
+[34mℹ[39m [90m｢wdm｣[39m: Hash: 1edfff6290f937db3206
+Version: webpack 4.43.0
+Time: 2252ms
+Built at: 2020-05-15 10:33:22
+           Asset       Size   Chunks             Chunk Names
+      index.html  290 bytes           [emitted]  
+         main.js   39.8 KiB     main  [emitted]  main
+vendors.chunk.js   3.02 MiB  vendors  [emitted]  vendors
+Entrypoint main = vendors.chunk.js main.js
+[0] multi (webpack)-dev-server/client?http://localhost:8009 (webpack)/hot/dev-server.js ./src/index.js 52 bytes {main} [built]
+    factory:0ms building:1ms dependencies:386ms = 387ms
+[./node_modules/jquery/dist/jquery.js] 281 KiB {vendors} [built]
+    [./src/index.js] 1205ms -> factory:110ms building:450ms dependencies:12ms = 1777ms
+[./node_modules/lodash/lodash.js] 528 KiB {vendors} [built]
+    [./src/index.js] 1205ms -> factory:110ms building:450ms dependencies:12ms = 1777ms
+[./node_modules/webpack-dev-server/client/index.js?http://localhost:8009] (webpack)-dev-server/client?http://localhost:8009 4.29 KiB {vendors} [built]
+    [0] 1ms -> factory:386ms building:36ms = 423ms
+[./node_modules/webpack-dev-server/client/overlay.js] (webpack)-dev-server/client/overlay.js 3.51 KiB {vendors} [built]
+    [0] 1ms -> [./node_modules/webpack-dev-server/client/index.js?http://localhost:8009] 422ms -> factory:1158ms building:55ms dependencies:71ms = 1707ms
+[./node_modules/webpack-dev-server/client/socket.js] (webpack)-dev-server/client/socket.js 1.53 KiB {vendors} [built]
+    [0] 1ms -> [./node_modules/webpack-dev-server/client/index.js?http://localhost:8009] 422ms -> factory:1158ms building:55ms dependencies:71ms = 1707ms
+[./node_modules/webpack-dev-server/client/utils/createSocketUrl.js] (webpack)-dev-server/client/utils/createSocketUrl.js 2.91 KiB {vendors} [built]
+    [0] 1ms -> [./node_modules/webpack-dev-server/client/index.js?http://localhost:8009] 422ms -> factory:1158ms building:55ms dependencies:71ms = 1707ms
+[./node_modules/webpack-dev-server/client/utils/log.js] (webpack)-dev-server/client/utils/log.js 964 bytes {vendors} [built]
+    [0] 1ms -> [./node_modules/webpack-dev-server/client/index.js?http://localhost:8009] 422ms -> factory:1158ms building:55ms dependencies:71ms = 1707ms
+[./node_modules/webpack-dev-server/client/utils/reloadApp.js] (webpack)-dev-server/client/utils/reloadApp.js 1.59 KiB {vendors} [built]
+    [0] 1ms -> [./node_modules/webpack-dev-server/client/index.js?http://localhost:8009] 422ms -> factory:1158ms building:55ms dependencies:71ms = 1707ms
+[./node_modules/webpack-dev-server/client/utils/sendMessage.js] (webpack)-dev-server/client/utils/sendMessage.js 402 bytes {vendors} [built]
+    [0] 1ms -> [./node_modules/webpack-dev-server/client/index.js?http://localhost:8009] 422ms -> factory:1158ms building:55ms dependencies:71ms = 1707ms
+[./node_modules/webpack-dev-server/node_modules/strip-ansi/index.js] (webpack)-dev-server/node_modules/strip-ansi/index.js 161 bytes {vendors} [built]
+    [0] 1ms -> [./node_modules/webpack-dev-server/client/index.js?http://localhost:8009] 422ms -> factory:1158ms building:55ms dependencies:71ms = 1707ms
+[./node_modules/webpack/hot sync ^\.\/log$] (webpack)/hot sync nonrecursive ^\.\/log$ 170 bytes {main} [built]
+    [0] 1ms -> [./node_modules/webpack-dev-server/client/index.js?http://localhost:8009] 422ms -> factory:1158ms building:55ms dependencies:71ms = 1707ms
+[./node_modules/webpack/hot/dev-server.js] (webpack)/hot/dev-server.js 1.59 KiB {vendors} [built]
+    [0] 1ms -> factory:386ms building:36ms = 423ms
+[./node_modules/webpack/hot/emitter.js] (webpack)/hot/emitter.js 75 bytes {vendors} [built]
+    [0] 1ms -> [./node_modules/webpack/hot/dev-server.js] 422ms -> factory:298ms building:748ms dependencies:0ms = 1469ms
+[./src/index.js] 157 bytes {main} [built]
+    factory:202ms building:1003ms = 1205ms
+    + 23 hidden modules
+Child HtmlWebpackCompiler:
+     1 asset
+    Entrypoint HtmlWebpackPlugin_0 = __child-HtmlWebpackPlugin_0
+    [./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html] 484 bytes {HtmlWebpackPlugin_0} [built]
+        factory:44ms building:47ms = 91ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: Failed to compile.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: Failed to compile.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: Hash: b3ef7bc37167e3da9bc0
+Version: webpack 4.43.0
+Time: 79ms
+Built at: 2020-05-15 10:34:11
+                                  Asset      Size  Chunks                               Chunk Names
+   94e55bca4f936887f166.hot-update.json  46 bytes          [emitted] [immutable] [hmr]  
+main.94e55bca4f936887f166.hot-update.js   1.6 KiB    main  [emitted] [immutable] [hmr]  main
+                                main.js  38.3 KiB    main  [emitted]                    main
+ + 1 hidden asset
+Entrypoint main = vendors.chunk.js main.js main.94e55bca4f936887f166.hot-update.js
+[./src/index.js] 113 bytes {main} [built]
+    factory:3ms building:44ms = 47ms
+    + 36 hidden modules
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: Hash: c60d1a318c7651cf154a
+Version: webpack 4.43.0
+Time: 123ms
+Built at: 2020-05-15 10:34:16
+                                     Asset       Size   Chunks                               Chunk Names
+      b3ef7bc37167e3da9bc0.hot-update.json   61 bytes           [emitted] [immutable] [hmr]  
+   main.b3ef7bc37167e3da9bc0.hot-update.js  928 bytes     main  [emitted] [immutable] [hmr]  main
+                                   main.js   37.7 KiB     main  [emitted]                    main
+vendors.b3ef7bc37167e3da9bc0.hot-update.js    813 KiB  vendors  [emitted] [immutable] [hmr]  vendors
+                          vendors.chunk.js   1.67 MiB  vendors  [emitted]                    vendors
+Entrypoint main = vendors.chunk.js vendors.b3ef7bc37167e3da9bc0.hot-update.js main.js main.b3ef7bc37167e3da9bc0.hot-update.js
+[./src/index.js] 65 bytes {main} [built]
+    factory:2ms building:11ms = 13ms
+    + 35 hidden modules
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: Hash: 9b9e2a248c44039cc5c3
+Version: webpack 4.43.0
+Time: 48ms
+Built at: 2020-05-15 10:34:29
+                                     Asset       Size   Chunks                               Chunk Names
+      c60d1a318c7651cf154a.hot-update.json   61 bytes           [emitted] [immutable] [hmr]  
+   main.c60d1a318c7651cf154a.hot-update.js  618 bytes     main  [emitted] [immutable] [hmr]  main
+                                   main.js   37.4 KiB     main  [emitted]                    main
+vendors.c60d1a318c7651cf154a.hot-update.js   85 bytes  vendors  [emitted] [immutable] [hmr]  vendors
+                          vendors.chunk.js    894 KiB  vendors  [emitted]                    vendors
+Entrypoint main = vendors.chunk.js vendors.c60d1a318c7651cf154a.hot-update.js main.js main.c60d1a318c7651cf154a.hot-update.js
+[./src/index.js] 18 bytes {main} [built]
+    factory:3ms building:12ms = 15ms
+    + 34 hidden modules
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
